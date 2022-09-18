@@ -1,0 +1,142 @@
+/* pages/home/home.wxss */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #eee;
+    padding: 20rpx 25rpx;
+    box-sizing: border-box;
+}
+
+
+.home-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-header-info{
+    display: flex;
+    flex-direction: column;
+}
+.username{
+    font-size: 48rpx;
+}
+.days{
+    color: #999;
+    font-size: 30rpx;
+}
+.home-header-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon{
+    width: 60rpx;
+    height: 60rpx;
+    background-color: palegoldenrod;
+}
+.header-text{
+    font-size: 28rpx;
+    color: #444;
+    line-height: 45rpx;
+}
+.home-content-box{
+    width: 100%;
+    background-color: #fff;
+    height: 600rpx;
+    border-radius: 20rpx;
+    margin-top: 40rpx;
+    box-sizing: border-box;
+    padding: 0 25rpx;
+}
+.title-box{
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 34rpx;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    align-items: center;
+}
+.config-icon{
+    width: 50rpx;
+    background-color: pink;
+    height: 50rpx;
+}
+
+.book{
+    width: 100%;
+    height: 120rpx;
+    margin: 20rpx 0;
+    background-color: rgba(173, 216, 230,0.8);
+    
+    box-sizing: border-box;
+    padding: 15rpx;
+    border-radius: 20rpx;
+    display: flex;
+    flex-direction: column;
+    line-height: 45rpx;
+}
+.book-name{
+    font-size: 32rpx;
+    color: #000000;
+}
+.book-info{
+    font-size: 28rpx;
+    color: #777;
+}
+.daily-task{
+    height: 220rpx;
+}
+
+.daily-title{
+    height: 100rpx;
+    line-height: 100rpx;
+    font-size: 36rpx;
+    color: #000;
+    box-sizing: border-box;
+    padding-left: 20rpx;
+    position: relative;
+}
+.daily-title::before{
+    content: "";
+    display: block;
+    width: 10rpx;
+    height: 36rpx;
+    background-color: rgb(71, 71, 243);
+    position: absolute;
+    top: 30rpx;
+    left: -5rpx;
+    border-radius: 5rpx;
+}
+.daily-task-info{
+    display: flex;
+    justify-content: space-between;
+    line-height: 80rpx;
+    box-sizing: border-box;
+    padding: 0 35rpx;
+    align-items: center;
+}
+
+.task-tag{
+    height: 50rpx;
+    width: 100rpx;
+    background-color: #fff;
+    line-height: 50rpx;
+    text-align: center;
+    border: 1rpx solid rgb(71, 71, 243);
+    border-radius: 10rpx;
+    font-size: 26rpx;
+    color: rgb(71, 71, 243);
+}
+.study-btn{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(71, 71, 243);
+    height: 100rpx;
+    border-radius: 10rpx;
+    line-height: 100rpx;
+    font-size: 36rpx;
+    color: #fff;
+}
